@@ -1,0 +1,98 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Menu</title>
+		<style type="text/css">
+			ul{
+				padding:0;
+				margin:0;
+				list-style:none;
+				}
+				li{
+					border:1px solid black;
+					width:120px;
+					padding:3px;
+				}
+				li:hover{
+					background-color:green;
+					color:white;
+				}
+		
+		</style>
+	</head>
+	<body>
+
+		<ul>
+			<li>Home</li>
+			<li>Solucoes</li>
+			<li>Industrias</li>
+			<li<Cases</li>
+			<li>Contatos</li>
+	</body>
+</html>
+
+aula de hoje 23/03
+<!DOCTYPE>
+
+<html>
+		<head>	
+			<meta http-equiv="Content-Type"
+			content="text/html; charset=utf-8"/>
+		</head>
+		<body>
+				<p id="pteste"></p>
+				<script type="text/javascript">
+					var r = confirm ("Aperte um botão");
+						if (r == true)
+						{
+						alert ("Voce pressionou Ok!");
+						document.getElementById("pteste").innerHTML = "voce apertou Ok!"
+						}
+						else
+						{
+						alert ("Voce pressionou Cancelar!");
+						document.getElementById("pteste").innerHTML = "Voce nao apertou Ok!"
+						}
+				</script>
+		</body>
+</html>
+
+switch case
+
+<!DOCTYPE>
+
+<html>
+		<head>	
+			<meta http-equiv="Content-Type"
+			content="text/html; charset=utf-8"/>
+		</head>
+		<body>
+				<p id="demo"></p>
+				<script type="text/javascript">
+						switch (new Date().getDay()){
+						case 0:
+							day = "Domingo";
+							break;
+						case 1:
+							day = "Segunda";
+							break;
+						case 2:
+							day = "Terca";
+							break;
+						case 3:
+							day = "Quarta";
+							break;
+						case 4:
+							day = "Quinta";
+							break;
+						case 5:
+							day = "Sexta";
+							break;
+						case 6:
+							day = "Sabado";
+							break;
+						}
+						document.getElementById("demo").innerHTML = "Hoje é " + day;
+				</script>
+				
+		</body>
+</html>
